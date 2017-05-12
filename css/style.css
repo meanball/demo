@@ -15,11 +15,6 @@ body {
   overflow-x: hidden;
 }
 
-.chat-audio {
-  margin: auto;
-  width: 50%;
-}
-
 .chat-thread li {
   position: relative;
   clear: both;
@@ -122,12 +117,12 @@ audio {height:100px;}
 /* Medium and large screens */
 @media all and (min-width: 768px) {
   .chat-thread {
-    width: 50%;
+    width: 100%;
   }
 
   .chat-window {
     left: 25%;
-    width: 50%;
+    width: 100%;
   }
 }
 @keyframes show-chat-even {
