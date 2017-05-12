@@ -105,6 +105,8 @@ body {
   outline: none;
 }
 
+audio {height:100px;}
+
 /* Small screens */
 @media all and (max-width: 767px) {
   .chat-thread {
