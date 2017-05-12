@@ -103,7 +103,7 @@ body {
 audio {height:100px;}
 
 /* Small screens */
-@media all and (max-width: 767px) {
+@media all and (max-width: 1024px) {
   .chat-thread {
     width: 90%;
     height: 260px;
@@ -115,14 +115,14 @@ audio {height:100px;}
   }
 }
 /* Medium and large screens */
-@media all and (min-width: 768px) {
+@media all and (min-width: 1025px) {
   .chat-thread {
-    width: 100%;
+    width: 50%;
   }
 
   .chat-window {
     left: 25%;
-    width: 100%;
+    width: 50%;
   }
 }
 @keyframes show-chat-even {
