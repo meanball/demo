@@ -11,6 +11,7 @@
 	margin: auto;
 	margin-top: 50px;
 	border: solid;
+	border-color: #0EC879;
 }
 /* Play/Pause Button */
 #pButton{
@@ -43,5 +44,5 @@
 	height: 18px;
 	border-radius: 50%;
 	margin-top: 1px;
-	background: black;
+	background: #0EC879;
 }
