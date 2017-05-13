@@ -9,8 +9,8 @@ body {
 }
 
 .chat-thread {
-  margin: 24px auto 0 auto;
-  padding: 0 20px 0 0;
+  margin: 0.32rem auto 0 auto;
+  padding: 0 0.266rem 0 0;
   list-style: none;
   overflow-x: hidden;
 }
@@ -106,7 +106,6 @@ audio {height:100px;}
 @media all and (max-width: 767px) {
   .chat-thread {
     width: 90%;
-    height: 260px;
   }
 
   .chat-window {
@@ -117,12 +116,12 @@ audio {height:100px;}
 /* Medium and large screens */
 @media all and (min-width: 768px) {
   .chat-thread {
-    width: 100%;
+    width: 50%;
   }
 
   .chat-window {
     left: 25%;
-    width: 100%;
+    width: 50%;
   }
 }
 @keyframes show-chat-even {
