@@ -6,7 +6,7 @@
 }
 /*Container for audio player*/
 #audioplayer{
-	width: 480px;
+	width: 320px;
 	height: 60px;
 	margin: auto;
 	margin-top: 50px;
@@ -29,7 +29,7 @@
 .pause{background: url('../img/pause.png') ;}
 
 #timeline{
-	width: 382px;
+	width: 222px;
 	height: 20px;
 	background: rgba(0,0,0,.3);
 	margin-top: 20px;
